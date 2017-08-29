@@ -1,4 +1,4 @@
-class solutio {
+class solution {
 public boolean isPalindrome(int x) {
 //if the number is less than 0 or is n*10, than it is not the palindrome number
     if (x<0 || (x!=0 && x%10==0)) return false;
